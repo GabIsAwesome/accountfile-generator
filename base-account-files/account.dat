@@ -1,0 +1,17 @@
+AccountInstance_00000000
+PersistentId=80000001
+TransferableIdBase=0
+Uuid=[not sure how to calculate YET.]
+MiiData=[not sure how to calculate YET.]
+MiiName=[not sure how to calculate YET.]
+AccountId=[Your PNID]
+BirthYear=0
+BirthMonth=0
+BirthDay=0
+Gender=0
+EmailAddress=[Your PNID's email]
+Country=0
+SimpleAddressId=0
+PrincipalId=[not sure how to calculate YET.]
+IsPasswordCacheEnabled=1
+AccountPasswordCache=[Paste the hash result from the pass-calc here.]
