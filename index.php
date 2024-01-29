@@ -9,5 +9,6 @@
    <h5>The account.dat file consists of various fields that are ESSENTIAL to connect online, mainly on <a href="//pretendo.network">Pretendo Network</a>. <br>  This tool focuses on trying to generate valid values to use on the file, therefore reviving the "Get your Cemu Files" option that was removed from the pretendo website.</h5>
    <h6>Try out the <a href="/calculator/">Calculator</a> to get values from the following fields on account.dat: Uuid, PrincipalId, Mii Data and Mii Name.</h6>
    <h6>Try out the <a href="/pass-hash/">pass-hash</a> page to get your AccountPasswordCache value.</h6>
+   <a href="https://github.com/GabIsAwesome/accountfile-generator/"><small>This is open-source! Anyone can look at the source code anytime they want.</small></a>
   </body>
   </html>
