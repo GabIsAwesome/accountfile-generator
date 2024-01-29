@@ -7,3 +7,7 @@ Tries to generate VALID values for the account.dat on what the website used to g
 - [x] Mii Data
 - [x] Mii Name
 - [ ] Uuid (still figuring out)
+# How do I use this on an account.dat file?
+This tool generates the values on account.dat that you mostly need to connect online with Pretendo Network. These include the password hash, principal ID, mii data and mii name.
+You can generate the values using the Calculator and the pass-hash files. The pass-hash does not send your password ANYWHERE.
+After you got the values, you can just copy & paste them on the base account.dat that's in this repo.
