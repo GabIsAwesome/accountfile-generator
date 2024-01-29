@@ -67,5 +67,28 @@
         echo "<br>PID:". dechex($accountPid); }
     }
 
+        // Tries to generate a valid UUID.
+        function generateUuid() {
+          return sprintf(
+              '%04x%04x-%04x-4%03x-%04x-%04x%04x%04x',
+              mt_rand(0, 0xffff),
+              mt_rand(0, 0xffff),
+              mt_rand(0, 0xffff),
+              mt_rand(0, 0xfff) | 0x4000,
+              mt_rand(0, 0xffff),
+              mt_rand(0, 0xffff),
+              mt_rand(0, 0xffff),
+              mt_rand(0, 0xffff)
+          );
+      } 
+  
+      // Call the function...
+      $uuid = generateUuid();
+  
+      // Remove dashes to match the format
+      $uuidString = str_replace('-', '', $uuid);
+
+      echo "<br>Uuid (generated randomly):". $uuidString;
+
     }
     ?>
