@@ -63,7 +63,8 @@
     // Retrieve PID from the post request
     if(isset($_POST["principalID"])) {
         $accountPid = $_POST["principalID"];
-        echo "<br>PID:". dechex($accountPid);
+        if (ctype_digit($accountPid)) {
+        echo "<br>PID:". dechex($accountPid); }
     }
 
     }
