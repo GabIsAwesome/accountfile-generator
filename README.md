@@ -12,3 +12,4 @@ Tries to generate VALID values for the account.dat on what the website used to g
 This tool generates the values on account.dat that you mostly need to connect online with Pretendo Network. These include the password hash, principal ID, mii data and mii name.
 You can generate the values using the Calculator and the pass-hash files. The pass-hash does not send your password ANYWHERE.
 After you got the values, you can just copy & paste them on the base account.dat that's in this repo.
+Note: this has been only tested with the Cemu emulator. I am not sure if it works on a real Wii U console.
