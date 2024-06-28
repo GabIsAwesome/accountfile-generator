@@ -1,6 +1,6 @@
 # Try it out at https://gbtptc.isledelfino.net
 # Account.dat Value Generator
-Tries to generate VALID values for the account.dat on what the website used to generate before they removed the option to get your files from the Pretendo website.
+Tries to generate VALID values for the account.dat on what the Pretendo website used to generate before they removed the option to get your files from it. For Cemu only
 ### YOU STILL NEED A VALID OTP.BIN AND A SEEPROM.BIN FILE TO CONNECT. I CAN'T GENERATE THESE, BUT THIS SHOULD BE ENOUGH IF YOU ALREADY HAVE THESE.
 # What values are being returned properly
 - [x] PID
@@ -12,8 +12,6 @@ Tries to generate VALID values for the account.dat on what the website used to g
 This tool generates the values on account.dat that you mostly need to connect online with Pretendo Network. These include the password hash, principal ID, mii data and mii name.
 You can generate the values using the Calculator and the pass-hash files. The pass-hash does not send your password ANYWHERE.
 After you got the values, you can just copy & paste them on the base account.dat that's in this repo.
-
-Note: Please don't use this on a real Wii U unless you want to brick it (there's no need to use this on a real Wii U). It was made to be used in Cemu only.
 
 # FAQ - Does this work with Nintendo Network?
 It **COULD** work with it. It has been only tested with Pretendo so far, but feel free to test it on Nintendo Network.
