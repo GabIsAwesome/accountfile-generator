@@ -6,7 +6,7 @@ Tries to generate VALID values for the account.dat on what the Pretendo website 
 - [x] PID
 - [x] Mii Data
 - [x] Mii Name
-- [] Uuid [broken, and needs a static value for now]
+- [ ] Uuid [broken, and needs a static value for now]
 - [x] Password Hash Cache
 # FAQ - How do I use this on an account.dat file?
 This tool generates the values on account.dat that you mostly need to connect online with Pretendo Network. These include the password hash, principal ID, mii data and mii name.
